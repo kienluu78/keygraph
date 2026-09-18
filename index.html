@@ -16,7 +16,7 @@
     var html = await res.text();
     html = html.replace(
       'Luu Zaibatsu Pty Ltd',
-      'Luu Zaibatsu Research Collaborative Pty Ltd ACN 702 511 037'
+      'Luu Zaibatsu Research Collaborative Pty Ltd ' + String.fromCharCode(0x00B7) + ' ACN 702 511 037'
     );
     document.open();
     document.write(html);
