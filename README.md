@@ -1,15 +1,22 @@
-# KeyGraph — Always-On Memory Agent
+# KeyGraph · Always-On Memory Agent
 
-Public explanation site for **KeyGraph** (Luu Zaibatsu Research Collaborative / LZRC).
+**Live:** https://kienluu78.github.io/keygraph/  
+**Repo:** https://github.com/kienluu78/keygraph
 
-**Live:** https://kienluu78.github.io/keygraph/
+Public explanation site for KeyGraph (Luu Zaibatsu Research Collaborative, Adelaide). Static HTML. No loader. No runtime fetch.
 
 Memory stays ours. Models are interchangeable.
 
-Built with Claude Design · house aesthetic (cream / navy / teal monogram).
+## What this is
+- Source-bound memory and continuity layer for AI under real operational load
+- Legal footer: Luu Zaibatsu Research Collaborative Pty Ltd · ACN 702 511 037 · ABN 78 702 511 037 (GST not claimed)
 
-## Local
-Open `index.html` in a browser.
+## What this is not
+- Not a public multi-tenant SaaS
+- Not regulated clinical decision support
 
-## Not
-Not a public SaaS. Not regulated clinical decision support.
+## Copy rule (Eric 2026-08-01)
+No em dashes (Unicode U+2014) or en dashes (U+2013) in client-facing copy.
+Prefer commas, colons, periods, parentheses, or middots. Long dashes read as AI-written.
+
+House keeper: edit `shared/website/keygraph/`, then push to this public repo when shipping.
